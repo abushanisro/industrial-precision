@@ -1,6 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { PageHero, Block } from "@/components/brand/Section";
-import wordmark from "@/assets/emithran-wordmark.png";
 import mark from "@/assets/emithran-mark.png";
 
 export const Route = createFileRoute("/logo")({
@@ -27,7 +26,7 @@ function LogoPage() {
 
       <Block number="02.1" label="Wordmark">
         <div className="bg-surface aspect-[16/9] grid place-items-center p-10 md:p-20 border border-border">
-          <img src={wordmark} alt="EMithran wordmark" className="max-h-32 md:max-h-48 w-auto" />
+          <span className="font-sans font-light text-[14vw] md:text-[10vw] tracking-[-0.02em] lowercase leading-[0.95] text-foreground">emithran</span>
         </div>
         <div className="grid md:grid-cols-3 gap-8 mt-8 text-sm">
           <Spec label="Format" value="PNG / SVG" />
@@ -61,12 +60,12 @@ function LogoPage() {
             { label: "Don't add effects", filter: "blur(2px)" },
           ].map((m) => (
             <div key={m.label} className="bg-surface aspect-square grid place-items-center p-8 relative">
-              <img
-                src={wordmark}
-                alt=""
-                className="max-h-10 w-auto"
+              <span
+                className="font-sans font-light text-4xl tracking-[-0.02em] lowercase text-foreground"
                 style={{ ...(m.style ?? {}), filter: m.filter }}
-              />
+              >
+                emithran
+              </span>
               <div className="absolute inset-0 grid place-items-center pointer-events-none">
                 <div className="w-full h-px bg-destructive rotate-[-15deg] opacity-70" />
               </div>

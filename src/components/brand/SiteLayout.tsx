@@ -1,7 +1,7 @@
 import { Link, Outlet, useLocation } from "@tanstack/react-router";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import wordmark from "@/assets/emithran-wordmark.png";
+
 
 const nav = [
   { to: "/", label: "01 — Introduction" },
@@ -20,7 +20,7 @@ export function SiteLayout() {
     <div className="min-h-screen bg-background text-foreground">
       <header className="fixed top-0 left-0 right-0 z-40 flex items-center justify-between px-6 md:px-10 py-5 mix-blend-difference">
         <Link to="/" className="flex items-center gap-3 text-background">
-          <img src={wordmark} alt="EMithran" className="h-5 w-auto invert" />
+          <span className="font-sans font-light text-3xl md:text-4xl tracking-[-0.02em] lowercase leading-none">emithran</span>
           <span className="hidden sm:inline text-xs uppercase tracking-[0.2em] opacity-70">Brand Guidelines</span>
         </Link>
         <button
