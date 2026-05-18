@@ -1,6 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { PageHero, Block } from "@/components/brand/Section";
-import wordmark from "@/assets/emithran-wordmark.png";
 import mark from "@/assets/emithran-mark.png";
 
 export const Route = createFileRoute("/logo")({
