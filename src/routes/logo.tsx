@@ -26,7 +26,7 @@ function LogoPage() {
 
       <Block number="02.1" label="Wordmark">
         <div className="bg-surface aspect-[16/9] grid place-items-center p-10 md:p-20 border border-border">
-          <img src={wordmark} alt="EMithran wordmark" className="max-h-32 md:max-h-48 w-auto" />
+          <span className="font-sans font-light text-[14vw] md:text-[10vw] tracking-[-0.02em] lowercase leading-[0.95] text-foreground">emithran</span>
         </div>
         <div className="grid md:grid-cols-3 gap-8 mt-8 text-sm">
           <Spec label="Format" value="PNG / SVG" />
