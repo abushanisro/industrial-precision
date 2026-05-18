@@ -1,7 +1,7 @@
 import { Link, Outlet, useLocation } from "@tanstack/react-router";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import wordmark from "@/assets/emithran-wordmark.png";
+
 
 const nav = [
   { to: "/", label: "01 — Introduction" },
