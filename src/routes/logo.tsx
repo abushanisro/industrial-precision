@@ -60,12 +60,12 @@ function LogoPage() {
             { label: "Don't add effects", filter: "blur(2px)" },
           ].map((m) => (
             <div key={m.label} className="bg-surface aspect-square grid place-items-center p-8 relative">
-              <img
-                src={wordmark}
-                alt=""
-                className="max-h-10 w-auto"
+              <span
+                className="font-sans font-light text-4xl tracking-[-0.02em] lowercase text-foreground"
                 style={{ ...(m.style ?? {}), filter: m.filter }}
-              />
+              >
+                emithran
+              </span>
               <div className="absolute inset-0 grid place-items-center pointer-events-none">
                 <div className="w-full h-px bg-destructive rotate-[-15deg] opacity-70" />
               </div>
