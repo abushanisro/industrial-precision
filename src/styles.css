@@ -30,6 +30,9 @@
   --color-steel: var(--steel);
   --color-graphite: var(--graphite);
   --color-machine: var(--machine);
+  --color-teal: var(--teal);
+  --color-teal-deep: var(--teal-deep);
+  --color-teal-soft: var(--teal-soft);
   --color-surface: var(--surface);
   --font-display: "Archivo", system-ui, sans-serif;
   --font-sans: "Inter Tight", system-ui, sans-serif;
