@@ -23,8 +23,9 @@ export function SiteLayout() {
     <div className="min-h-screen bg-background text-foreground">
       <header className="fixed top-0 left-0 right-0 z-40 flex items-center justify-between px-6 md:px-10 py-5 mix-blend-difference">
         <Link to="/" className="flex items-center gap-3 text-background">
-          <span className="font-sans font-light text-3xl md:text-4xl tracking-[-0.02em] leading-none"><span className="uppercase">EM</span><span className="lowercase">ithran</span></span>
-          <span className="hidden sm:inline text-xs uppercase tracking-[0.2em] opacity-70">Brand Guidelines</span>
+          <img src={markWhite.url} alt="EMithran" className="h-9 md:h-10 w-auto" />
+          <span className="font-sans font-semibold text-xl md:text-2xl tracking-[-0.01em] leading-none uppercase">EMITHRAN</span>
+          <span className="hidden sm:inline text-xs uppercase tracking-[0.2em] opacity-70 ml-2">Brand Guidelines</span>
         </Link>
         <button
           onClick={() => setOpen(true)}
