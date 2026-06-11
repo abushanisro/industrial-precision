@@ -72,7 +72,7 @@ export function SiteLayout() {
         <Outlet />
       </main>
 
-      <footer className="border-t border-border bg-background">
+      <footer className="bg-ink text-background">
         <div className="px-6 md:px-10 py-10 grid grid-cols-2 md:grid-cols-4 gap-8 text-xs uppercase tracking-[0.2em]">
           <div>
             <div className="opacity-50 mb-2">Document</div>
