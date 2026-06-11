@@ -16,7 +16,7 @@ export function PageHero({
   return (
     <>
       <section
-        className={`relative overflow-hidden ${dark ? "bg-foreground text-background" : "bg-background text-foreground"} pt-32 pb-20 md:pt-44 md:pb-32 px-6 md:px-10`}
+        className={`relative overflow-hidden ${dark ? "bg-ink text-background" : "bg-background text-foreground"} pt-32 pb-20 md:pt-44 md:pb-32 px-6 md:px-10`}
       >
         {dark && <div className="absolute inset-0 grid-lines pointer-events-none" />}
         <div className="relative max-w-[1600px] mx-auto">
