@@ -12,37 +12,37 @@ export const Route = createFileRoute("/colors")({
 });
 
 const core = [
-  { name: "Industrial Black", hex: "#000000", usage: "Primary logo / text", textLight: true },
-  { name: "Pure White", hex: "#FFFFFF", usage: "Background", textLight: false },
-  { name: "Soft Industrial Gray", hex: "#F5F5F5", usage: "Secondary surface", textLight: false },
-  { name: "Steel Gray", hex: "#D1D5DB", usage: "Border / lines", textLight: false },
-  { name: "Graphite Black", hex: "#111111", usage: "Dark UI sections", textLight: true },
-  { name: "Machine Gray", hex: "#4B5563", usage: "Secondary text", textLight: true },
+  { name: "Primary Teal", hex: "#2DD4BF", usage: "Buttons / accents / icons", textLight: false },
+  { name: "Deep Teal", hex: "#0D9488", usage: "Text / hover / borders", textLight: true },
+  { name: "Dark Navy", hex: "#0F1B2D", usage: "Headings / card bg", textLight: true },
+  { name: "Light Teal", hex: "#F0FDF9", usage: "Section background", textLight: false },
+  { name: "Cool Mist", hex: "#F3F7F9", usage: "Icon box / surface", textLight: false },
+  { name: "Pure White", hex: "#FFFFFF", usage: "Canvas", textLight: false },
 ];
 
 const neutrals = [
-  { name: "Rich Black", hex: "#010101", textLight: true },
-  { name: "Deep Graphite", hex: "#1A1A1A", textLight: true },
-  { name: "Industrial Gray", hex: "#2F2F2F", textLight: true },
-  { name: "Soft Steel", hex: "#E5E5E5", textLight: false },
-  { name: "Clean White", hex: "#FEFEFE", textLight: false },
+  { name: "Navy 950", hex: "#0A1320", textLight: true },
+  { name: "Navy 900", hex: "#0F1B2D", textLight: true },
+  { name: "Teal 700", hex: "#0D9488", textLight: true },
+  { name: "Teal 400", hex: "#2DD4BF", textLight: false },
+  { name: "Teal 50", hex: "#F0FDF9", textLight: false },
 ];
 
 const meanings = [
   {
-    h: "Black",
-    hex: "#000000",
-    items: ["Authority", "Engineering precision", "Industrial strength", "Premium manufacturing"],
+    h: "Teal",
+    hex: "#2DD4BF",
+    items: ["Clarity", "Modern systems", "Calm precision", "Signal & focus"],
   },
   {
-    h: "White",
-    hex: "#FFFFFF",
-    items: ["Transparency", "Clean systems", "Automation", "Simplicity"],
+    h: "Navy",
+    hex: "#0F1B2D",
+    items: ["Authority", "Enterprise trust", "Engineering depth", "Premium structure"],
   },
   {
-    h: "Gray",
-    hex: "#4B5563",
-    items: ["Machinery", "Metal", "Technical infrastructure", "Factory-grade reliability"],
+    h: "Mist",
+    hex: "#F3F7F9",
+    items: ["Cleanliness", "Open space", "Soft infrastructure", "Quiet reliability"],
   },
 ];
 
