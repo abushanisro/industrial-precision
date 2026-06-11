@@ -1,6 +1,9 @@
 import { Link, Outlet, useLocation } from "@tanstack/react-router";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import markBlack from "@/assets/emithran-mark-black.png.asset.json";
+import markWhite from "@/assets/emithran-mark-white.png.asset.json";
+
 
 
 const nav = [
