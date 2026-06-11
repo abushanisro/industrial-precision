@@ -77,6 +77,13 @@ export function SiteLayout() {
       </main>
 
       <footer className="bg-ink text-background">
+        <div className="px-6 md:px-10 py-14 border-b border-background/10 flex items-center justify-between">
+          <div className="flex items-center gap-4">
+            <img src={markWhite.url} alt="EMithran" className="h-10 md:h-12 w-auto" />
+            <span className="font-sans font-semibold text-2xl md:text-3xl tracking-tight uppercase">EMITHRAN</span>
+          </div>
+          <span className="hidden md:inline text-xs uppercase tracking-[0.2em] opacity-50">End-to-end manufacturing intelligence</span>
+        </div>
         <div className="px-6 md:px-10 py-10 grid grid-cols-2 md:grid-cols-4 gap-8 text-xs uppercase tracking-[0.2em]">
           <div>
             <div className="opacity-50 mb-2">Document</div>
@@ -93,7 +100,7 @@ export function SiteLayout() {
           </div>
           <div className="text-right">
             <div className="opacity-50 mb-2">©</div>
-            <div>All rights reserved</div>
+            <div>2026 Emithran Technologies</div>
           </div>
         </div>
       </footer>
